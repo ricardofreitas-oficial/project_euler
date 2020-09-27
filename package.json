@@ -1,0 +1,7 @@
+{
+  "name": "project_euler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ricardo Freitas <ricardo.freitas@acct.global>",
+  "license": "MIT"
+}
