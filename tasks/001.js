@@ -7,9 +7,9 @@ const multiples = (n) => {
   let sum = 0
 
   for (let i = 0; i < n; i++) {
-    i % 3 === 0 || i % 5 === 0 ? sum += i : null
+    if (i % 3 === 0 || i % 5 === 0) sum += i
+    return sum
   }
-  return sum
 }
 
 console.log(multiples(1000)) //response 233168
