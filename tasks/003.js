@@ -3,14 +3,7 @@
  * What is the largest prime factor of the number 600851475143 ?
  */
 
-const isPrime = (num) => {
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) {
-      return false
-    }
-  }
-  return num > 1
-}
+const isPrime = require('./utils/isPrime')
 
 const Factors = (num) => {
   const factorArray = []

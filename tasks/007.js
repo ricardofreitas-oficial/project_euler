@@ -3,13 +3,7 @@
  * What is the 10 001st prime number?
  */
 
-const isPrime = num => {
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) return false;
-  }
-
-  return true
-}
+const isPrime = require('./utils/isPrime')
 
 const primeIndex = (index) => {
   let counter = 0

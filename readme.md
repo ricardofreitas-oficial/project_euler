@@ -65,3 +65,8 @@
 ### For example, 32 + 42 = 9 + 16 = 25 = 52.
 - There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
 - Expected: 31875000
+
+## Task 10
+### The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+- Find the sum of all the primes below two million.
+- Expected: 142913828922
